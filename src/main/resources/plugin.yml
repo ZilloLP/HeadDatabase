@@ -1,0 +1,8 @@
+name: HeadDatabase
+version: '${project.version}'
+main: de.zillolp.headdatabase.HeadDatabase
+api-version: 1.18
+author: ZilloLP
+commands:
+  hdb:
+    description: Zeigt dir eine Liste aller Heads.

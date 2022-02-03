@@ -1,0 +1,8 @@
+# +----------------------------------------------------+
+# <                     HeadDatabase                   >
+# +----------------------------------------------------+
+
+# Basic messages
+PREFIX: '&8┃ &2Exitria &8» '
+NO_PERMISSION: '&cDazu hast du keine Rechte!'
+ONLY_PLAYER: '&cDu musst ein Spieler sein!'

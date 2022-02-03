@@ -1,0 +1,10 @@
+# +----------------------------------------------------+
+# <                     HeadDatabase                   >
+# +----------------------------------------------------+
+
+# MySQL data
+Host: localhost
+Port: '3306'
+Database: HeadDatabase
+User: root
+Password: 123+
