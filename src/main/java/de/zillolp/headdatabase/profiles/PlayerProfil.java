@@ -17,11 +17,7 @@ public class PlayerProfil {
 
     public void createTestInventory(String category) {
         HashMap<String, LinkedHashMap<String, ItemStack>> heads = HeadsManager.heads;
-        if (heads.get(category) == null) {
-            inventory = Bukkit.createInventory(null, 6 * 9, "§8" + category + ": §a0");
-        } else {
-            inventory = Bukkit.createInventory(null, 6 * 9, "§8" + category + ": §a" + heads.get(category).size());
-        }
+        inventory = Bukkit.createInventory(null, 6 * 9, "§8" + category + ": §a" + heads.get(category).size());
         LinkedList<ItemStack> categoryHeads = new LinkedList<>();
         for (Map.Entry<String, ItemStack> head : heads.get(category).entrySet()) {
             categoryHeads.add(head.getValue());

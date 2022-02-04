@@ -50,6 +50,10 @@ public class ScrollingInventory {
         }
     }
 
+    public int getPage() {
+        return page + 1;
+    }
+
     public void loadPage() {
         if (items == null || items.size() <= 0) {
             int slot = stop_slot / 2;

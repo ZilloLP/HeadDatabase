@@ -46,6 +46,7 @@ public class InventorySetter {
             inventory.setItem(slot, new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE, "§8*").build());
         }
         inventory.setItem(48, new ItemBuilder(Material.PLAYER_HEAD, "§7Letzte Seite", "f84f597131bbe25dc058af888cb29831f79599bc67c95c802925ce4afba332fc").build());
+        inventory.setItem(49, new ItemBuilder(Material.BOOK, "§7Seite§8: §a" + scrollingInventory.getPage()).build());
         inventory.setItem(50, new ItemBuilder(Material.PLAYER_HEAD, "§7Nächste Seite", "fcfe8845a8d5e635fb87728ccc93895d42b4fc2e6a53f1ba78c845225822").build());
     }
 }

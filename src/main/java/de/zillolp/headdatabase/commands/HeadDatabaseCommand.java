@@ -28,6 +28,7 @@ public class HeadDatabaseCommand implements TabExecutor {
         Player player = (Player) sender;
         if (!(player.hasPermission("hdb.use"))) {
             player.sendMessage(LanguageTools.getNO_PERMISSION());
+            return false;
         }
         int length = args.length;
         if (length == 0) {

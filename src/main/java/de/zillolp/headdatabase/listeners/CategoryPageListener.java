@@ -53,7 +53,6 @@ public class CategoryPageListener implements Listener {
                 PlayerProfil playerProfil = playerProfiles.get(player.getUniqueId());
                 ScrollingInventory scrollingInventory = playerProfil.getScrollingInventory();
                 if (!(scrollingInventory.hasLast())) {
-                    player.sendMessage(LanguageTools.getPREFIX() + "§cEs gibt keine letzte Seite.");
                     return;
                 }
                 scrollingInventory.lastPage();
@@ -62,7 +61,6 @@ public class CategoryPageListener implements Listener {
                 PlayerProfil playerProfil = playerProfiles.get(player.getUniqueId());
                 ScrollingInventory scrollingInventory = playerProfil.getScrollingInventory();
                 if (!(scrollingInventory.hasNext())) {
-                    player.sendMessage(LanguageTools.getPREFIX() + "§cEs gibt keine nächste Seite.");
                     return;
                 }
                 scrollingInventory.nextPage();
